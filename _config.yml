@@ -98,15 +98,15 @@ author:
   bio              : "Software Engineer with a passion for clean code and disruptive ideas"
   location         : "Italy"
   email            : "garry@bhatt.al"
-  uri              : "https://garry.bhatt.al"
+  uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "itsgarryb"
   foursquare       :
-  github           : "https://github.com/itsgarryb"
+  github           : "itsgarryb"
   gitlab           :
   google_plus      :
   keybase          :
@@ -118,7 +118,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "itsgarryb"
   vine             :
   weibo            :
   xing             :

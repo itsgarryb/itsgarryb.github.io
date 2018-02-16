@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Garry Bhattal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Software Engineer with a passion for clean code and disruptive ideas"
   location         : "Italy"
   email            : "garry@bhatt.al"

@@ -4,6 +4,7 @@ title:  "Difference between URL, URI and URN"
 date:   2015-08-25 15:00:00 -0800
 categories: URL URI URN
 permalink: /difference-between-url-uri-and-urn
+classes: wide
 ---
 This is a classic tech debate, and many people will sooner or later ask themselves what's the difference between URLs, URIs and most possibly even URNs. As of today one can simply refer to URNs and URLs as URIs, but it may be very interesting and useful to know the difference between these three terms since technically a URI can still be further classified as URL, URN or both. If you happen to find these terms somewhere, you should at least know what they mean.
 

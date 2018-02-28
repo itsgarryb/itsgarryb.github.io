@@ -3,7 +3,8 @@ layout: single
 title:  "Understanding UNIX/Linux File System Permissions (Part 1)"
 date:   2016-09-30 15:00:00 -0800
 categories: [UNIX, Linux, Permissions, File System]
-permalink: /how-to-keep-ghost-running-using-pm2
+permalink: /understanding-unix-linux-file-system-permissions-1
+classes: wide
 ---
 This series of articles is mainly for UNIX/Linux newbies, the topic will be covered in a way that is both simple and easy to understand. One of the things that's often not clear to users approaching the UNIX world is how the **permission** system for file and directories works. In fact, _UNIX is a multi-user system_, which means there are multiple users that can connect to a UNIX system at the same time and do operations with it. This is also true for other UNIX-like system like Linux.
 

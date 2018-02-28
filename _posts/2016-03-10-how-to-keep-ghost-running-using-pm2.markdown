@@ -4,6 +4,7 @@ title:  "How to keep Ghost running using pm2"
 date:   2016-03-10 15:00:00 -0800
 categories: Ghost pm2
 permalink: /how-to-keep-ghost-running-using-pm2
+classes: wide
 ---
 So you just set up your brand new blog with [Ghost](https://ghost.org/), the node.js-based blogging platform? You will most likely encounter the problem of keeping alive (and/or restarting) the node.js process on which Ghost is running.
 

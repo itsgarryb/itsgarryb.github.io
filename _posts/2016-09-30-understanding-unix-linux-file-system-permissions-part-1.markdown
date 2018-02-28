@@ -42,7 +42,7 @@ You can also get the GID of a user by typing the following at the UNIX prompt:
 ```
 id -g username  
 ```
-Don't forget to replace **username**.
+Don't forget to replace _username_.
 
 If you want to find out all groups a user belongs to, you will need to enter the following:
 ```

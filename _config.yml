@@ -264,7 +264,7 @@ defaults:
       related: true
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "itsgarryb/minimal-mistakes"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

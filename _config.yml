@@ -18,7 +18,7 @@ email: garry@bhatt.al
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineer with a passion for clean code and disruptive ideas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://itsgarryb.github.io"
+url: "https://garry.bhatt.al"
 twitter_username: itsgarryb
 github_username:  itsgarryb
 
@@ -29,9 +29,9 @@ repository               : "itsgarryb/itsgarryb.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "garry-bhatt-al"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -86,9 +86,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : "UA-37704063-3"
 
 
 # Site Author
@@ -202,6 +202,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -259,12 +260,19 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "itsgarryb/minimal-mistakes"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

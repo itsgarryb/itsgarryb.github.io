@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "How to set up Jekyll with Docker and GitHub Pages"
-date:   2018-03-01 15:00:00 -0800
+date:   2019-02-18 09:00:00 -0800
 categories: [Jekyll, GitHub Pages, Docker]
 permalink: /how-to-set-up-Jekyll-with-Docker-and-GitHub-Pages
 classes: wide
@@ -33,10 +33,10 @@ sudo apt-get install -y docker-ce
 
 Now let's install Docker Compose and apply executable permissions to the binary:
 ```
-sudo curl -L https://github.com/docker/compose/releases/download/1.20.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.24.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-Be careful to download the [latest version](https://github.com/docker/compose/releases) of Docker Composer by changing the `1.20.0` part in the request URI above.
+Be careful to download the [latest version](https://github.com/docker/compose/releases) of Docker Composer by changing the `1.24.0` part in the request URI above.
 
 You should now be ready to use Docker and Docker Compose. Let's see what role they play in our set up.
 
@@ -79,6 +79,7 @@ It's kinda amazing but things are getting even easier, if possible.
 Create a new GitHub repository named _username_.github.io (replace _username_ with your GitHub username). Figure out a way to clone the new repository in `~/site/` while retaining all of your previous blog files.
 
 Now just commit and push the blog files to your new GitHub repo. Done, your site should be live at https://_username_.github.io .
+
 ___
 
 This is one way to quickly and efficiently set up a fully functional blog at zero cost; I personally find it very convenient! Let me know if you do too.

@@ -61,3 +61,15 @@ Keeping parameters and logs under check is useful to find out how application an
 
 ### Containerization & Orchestration
 These are two techniques used to manage software. Containererization, through tools such as Docker, provides a logical packaging mechanism that allows applications to be abstracted from the underlying environment they run on. Decoupling things like this allows for easy and consistent deployments of container-based applications, whether the target environment is a private data center, the public cloud or a developer's computer. Compared to virtual machines, containers have several advantages such as reduced disk size and low overhead. Orchestration refers to practices such as automatic deployment, scaling, and management of containerized applications and can be achieved using tools such as Kubernetes.
+
+## What are the advantages of the DevOps model?
+* Speed. Applications developed using a microservice architecture with the addition of continuous integration allow to release updates more frequently and better control services.
+
+* Rapid delivery. Practices such as continuous integration (CI) and continuous delivery (CD) lead to faster releases and bug fixes.
+
+* Reliability. Thanks to CI/CD and monitoring/logging rest assured that releases will meet quality standards without sacrificing the end-user experience.
+
+* Scalability. Infrastructure as code allows you to manage development, testing and production environments in an iterative and more efficient way - on any scale.
+
+* An evolution of software architecture, development and delivery that is not the same as it was twenty years ago.
+

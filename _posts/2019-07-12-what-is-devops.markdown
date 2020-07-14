@@ -73,3 +73,21 @@ These are two techniques used to manage software. Containererization, through to
 
 * An evolution of software architecture, development and delivery that is not the same as it was twenty years ago.
 
+## A simple pipeline example
+
+Now that we know about DevOps and its advantages, let's briefly look at a simple pipeline example. There is no correct or definitive structure: you can modify the pipeline to better adapt it to certain situations or as you see fit. This is just an example.
+
+In the first step you version the code, with a tool like Git. Developers then develop and commit the code to a repository.
+
+The second step is not always necessary, it depends on the language and technology used. It consists of building the project, which often means having a working version of the project locally.
+
+The third step is running unit tests on the project. This can also be automated - useful to prepare for the next step.
+
+The fourth step is deployment to development/staging environments. At this point you can view the code running on an environment that can be shared with the client. This point can also be automated.
+
+Subsequently, other tests can be run on the development environment. Other people responsible for testing the project can come into play by running their test tasks, even manually, on a development environment that should be complete and working. Depending on requirements, this step can also be automated.
+
+If all goes well it's time to go live! Deployment in production happens. Once this is done there is the operational/monitoring phase. Things such as applications, state of the infrastructure, errors, logs and more are kept under control.
+
+## Final Thoughts
+Hopefully by now you have an idea of what DevOps is, at least on paper. DevOps, as I repeatedly stated, is first and foremost a cultural change that impacts all the figures involved in software development. In fact, it requires a different, more modern approach to software development and distribution; in return, if implemented well, it provides us with several advantages such as the reduction of different problems and timescales. It also prepares us to better face challenges that previously would have been more problematic to manage.

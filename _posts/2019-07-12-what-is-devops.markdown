@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "What exactly is the DevOps model and what advantages does it bring to your workflow?"
-date:   2020-08-01 09:00:00 -0800
+date:   2020-07-15 09:00:00 -0800
 categories: [DevOps]
 permalink: /what-is-devops
 classes: wide
@@ -9,7 +9,7 @@ classes: wide
 It's 2020 and although DevOps is a practice that's very commonly adopted today, I feel that a not too overly technical explanation of the subject might be beneficial to those individuals, or companies, that are not using it yet but find themselves in a position where it makes sense to use such model. Moreover, if you're completely or partially new to this subject, this is a great place to start!
 
 <figure>
-  <img src="{{site.url}}/assets/images/2020-08-01/devops.gif" alt="DevOps"/>
+  <img src="{{site.url}}/assets/images/2020-07-15/devops.gif" alt="DevOps"/>
 </figure>
 
 ## So what is this DevOps thing?
@@ -38,6 +38,11 @@ The DevOps model will improve every aspect of the lifecycle of an application, f
 **DevOps is first of all a mentality shift**, where you are required to change the way you approach software development and release. While it is good to have one person to be the leader of this change, you should make sure that your whole team/company is ready to take the leap.
 
 ## Let's dive deeper into the practices
+
+<figure>
+  <img src="{{site.url}}/assets/images/2020-07-15/tools.png" alt="DevOps tools"/>
+  <figcaption>DevOps tools</figcaption>
+</figure>
 
 ### Continuous Integration
 It is composed by two main elements: a cultural one and a technical/automated one. The cultural part consists in learning how to make frequent integrations. In other words, developers should not wait an excessive amount of time before merging their commits into the rest of the project. The technical/automated part is represented by the tools that helps automating these frequent integrations. Jenkins, for example, is a popular open source tool widely used for this. Continuous Integration solves the problem of heavy integrations and it helps reducing time spent solving merge conflicts. Statistically, the longer you wait to merge the more chances you will incur in a conflict. Merge often to avoid this!
@@ -74,6 +79,8 @@ These are two techniques used to manage software. Containererization, through to
 * An evolution of software architecture, development and delivery that is not the same as it was twenty years ago.
 
 ## A simple pipeline example
+
+
 
 Now that we know about DevOps and its advantages, let's briefly look at a simple pipeline example. There is no correct or definitive structure: you can modify the pipeline to better adapt it to certain situations or as you see fit. This is just an example.
 

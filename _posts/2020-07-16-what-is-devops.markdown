@@ -83,7 +83,7 @@ These are two techniques used to manage software. Containererization, through to
 Now that we know about DevOps and its advantages, let's briefly look at a simple pipeline example. There is no correct or definitive structure: you can modify the pipeline to better adapt it to certain situations or as you see fit. This is just an example.
 
 <figure>
-  <img src="{{site.url}}/assets/images/2020-07-16/tools.png" alt="DevOps pipeline"/>
+  <img src="{{site.url}}/assets/images/2020-07-16/pipeline.png" alt="DevOps pipeline"/>
 </figure>
 
 In the first step you version the code, with a tool like Git. Developers then develop and commit the code to a repository.

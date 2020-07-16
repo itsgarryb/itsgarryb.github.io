@@ -4,3 +4,4 @@ _site
 .vscode
 Gemfile
 Gemfile.lock
+.DS_Store

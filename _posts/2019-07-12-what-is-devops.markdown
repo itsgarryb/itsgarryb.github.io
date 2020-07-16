@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "What exactly is the DevOps model and what advantages does it bring to your workflow?"
-date:   2020-07-15 09:00:00 -0800
+date:   2020-07-16 09:00:00 -0800
 categories: [DevOps]
 permalink: /what-is-devops
 classes: wide
@@ -9,7 +9,7 @@ classes: wide
 It's 2020 and although DevOps is a practice that's very commonly adopted today, I feel that a not too overly technical explanation of the subject might be beneficial to those individuals, or companies, that are not using it yet but find themselves in a position where it makes sense to use such model. Moreover, if you're completely or partially new to this subject, this is a great place to start!
 
 <figure>
-  <img src="{{site.url}}/assets/images/2020-07-15/devops.gif" alt="DevOps"/>
+  <img src="{{site.url}}/assets/images/2020-07-16/devops.gif" alt="DevOps"/>
 </figure>
 
 ## So what is this DevOps thing?
@@ -40,7 +40,7 @@ The DevOps model will improve every aspect of the lifecycle of an application, f
 ## Let's dive deeper into the practices
 
 <figure>
-  <img src="{{site.url}}/assets/images/2020-07-15/tools.png" alt="DevOps tools"/>
+  <img src="{{site.url}}/assets/images/2020-07-16/tools.png" alt="DevOps tools"/>
   <figcaption>DevOps tools</figcaption>
 </figure>
 
@@ -80,9 +80,11 @@ These are two techniques used to manage software. Containererization, through to
 
 ## A simple pipeline example
 
-
-
 Now that we know about DevOps and its advantages, let's briefly look at a simple pipeline example. There is no correct or definitive structure: you can modify the pipeline to better adapt it to certain situations or as you see fit. This is just an example.
+
+<figure>
+  <img src="{{site.url}}/assets/images/2020-07-16/tools.png" alt="DevOps pipeline"/>
+</figure>
 
 In the first step you version the code, with a tool like Git. Developers then develop and commit the code to a repository.
 

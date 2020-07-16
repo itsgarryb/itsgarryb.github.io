@@ -33,9 +33,9 @@ Finally, **tools**. These, along with the aforementioned practices, will help yo
 * Kubernetes
 * Automated testing libraries/frameworks
 
-The DevOps model will improve every aspect of the lifecycle of an application, from development and testing to deployments and production rollouts. The team relies on automation to speed up manual processes and, thanks to the appropriate tools, applications can grow in a rapid and flexible way.
+The DevOps model will improve every aspect of the application lifecycle, from development and testing to deployments and production rollouts. The team relies on automation to speed up manual processes and, thanks to the appropriate tools, applications can grow in a rapid and flexible way.
 
-**DevOps is first of all a mentality shift**, where you are required to change the way you approach software development and release. While it is good to have one person to be the leader of this change, you should make sure that your whole team/company is ready to take the leap.
+**DevOps is first of all a mentality shift**, where you are required to change the way you approach software development and release. While it may be good to have one person to be the leader of this change, you should make sure that your whole team/company is ready to take the leap.
 
 ## Let's dive deeper into the practices
 
@@ -51,10 +51,10 @@ It is composed by two main elements: a cultural one and a technical/automated on
 It extends Continous Integration by automating deployments to staging and production environments. These deployments can have pre-requisites such as automated tests; they can even go beyond Unit Tests and require interface tests, load tests, integration tests, API reliability tests and so on. There is a difference between Continuous Delivery and Continuous Deployment. With C. Delivery you will automatically deploy on a staging environment and manual approval will be required if you want to deploy in production. With C. Deployment you go one step further and also automate production rollouts. You can use Jenkins for this or you can search for more specific tools that will hook into the Continuous Integration offered by Jenkins. This practice will help you reduce human errors and time required to complete the deployment process.
 
 ### Microservices
-It is a type of architecture used to build an application or a set of services. The application is based on a smaller set of services that communicates with each others through, for example, HTTP APIs. Each microservice has its own responsibility and the application is broken down into microservices according to the needs of the application domain. Frameworks or programming languages can be used to write microservices and distribute them, either individually or as a group of services. With this approach, our application will have the following benefits:
-* more easily maintainable. I only touch the microservice I need.
-* more resilient to errors. If a microservice fails, the rest of the microservices will continue to work since they are independent
-* better testable and more modular. You can use different languages and technologies on each microservice, using the most suitable ones case by case without committing to a single technology for the whole project. Each microservice can then be tested with separate approaches and methodologies.
+It is a type of architecture used to build an application or a set of services. The application is based on a smaller set of services that communicates with each other through, for example, HTTP APIs. Each microservice has its own responsibility and the application is broken down into microservices according to the needs of the application domain. Frameworks or programming languages can be used to write microservices and distribute them, either individually or as a group of services. With this approach, our application will have the following benefits:
+* More easily maintainable. You only touch the microservice you need.
+* More resilient to errors. If a microservice fails, the rest of the microservices can continue to work since they are independent.
+* Better testable and more modular. You can use different languages and technologies on each microservice, using the most suitable solution on case by case basis without committing to a single technology for the whole project. Each microservice can then be tested with separate approaches and methodologies.
 
 Microservices have gradually become the standard for building systems that make use of practices such as Continuous Deployment.
 
@@ -68,7 +68,7 @@ Keeping parameters and logs under check is useful to find out how application an
 These are two techniques used to manage software. Containererization, through tools such as Docker, provides a logical packaging mechanism that allows applications to be abstracted from the underlying environment they run on. Decoupling things like this allows for easy and consistent deployments of container-based applications, whether the target environment is a private data center, the public cloud or a developer's computer. Compared to virtual machines, containers have several advantages such as reduced disk size and low overhead. Orchestration refers to practices such as automatic deployment, scaling, and management of containerized applications and can be achieved using tools such as Kubernetes.
 
 ## What are the advantages of the DevOps model?
-* Speed. Applications developed using a microservice architecture with the addition of continuous integration allow to release updates more frequently and better control services.
+* Speed. Applications developed using a microservice architecture with the addition of continuous integration allows you to release updates more frequently and to better control services.
 
 * Rapid delivery. Practices such as continuous integration (CI) and continuous delivery (CD) lead to faster releases and bug fixes.
 
@@ -99,4 +99,6 @@ Subsequently, other tests can be run on the development environment. Other peopl
 If all goes well it's time to go live! Deployment in production happens. Once this is done there is the operational/monitoring phase. Things such as applications, state of the infrastructure, errors, logs and more are kept under control.
 
 ## Final Thoughts
-Hopefully by now you have an idea of what DevOps is, at least on paper. DevOps, as I repeatedly stated, is first and foremost a cultural change that impacts all the figures involved in software development. In fact, it requires a different, more modern approach to software development and distribution; in return, if implemented well, it provides us with several advantages such as the reduction of different problems and timescales. It also prepares us to better face challenges that previously would have been more problematic to manage.
+Hopefully by now you have an idea of what DevOps is, at least on paper. DevOps, as I have repeatedly stated, is first and foremost a cultural change that impacts all the figures involved in software development. In fact, it requires a different, more modern approach to software development and distribution; in return, if implemented well, it provides us with several advantages such as the reduction of different problems and timescales. It also prepares us to better face challenges that previously would have been more problematic to manage.
+
+Should you find any mistake, technical or grammatical, please don't hesitate to let me know!

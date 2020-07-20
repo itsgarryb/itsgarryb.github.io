@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "What exactly is the DevOps model and what advantages does it bring to your workflow?"
-date:   2020-07-16 09:00:00 -0800
+title:  "What is the DevOps model and what advantages does it bring to your workflow?"
+date:   2020-07-21 09:00:00 -0800
 categories: [DevOps]
 permalink: /what-is-devops
 classes: wide
